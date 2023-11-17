@@ -23,169 +23,157 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
+
+## index
 ```
-map.html
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My City</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"MAP"</title>
+    <h1 align="center">
+        <font color="blueS" face="cursive">
+           Tharun kumar 212222100056- MAP 
+        </font>
+    </h1>
 </head>
 <body>
-<h1 align="center">
-<font color="green"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Charumathi (22006878)</b></font>
-</h3>
-<center>
-<img src="/static/images/map.png" usemap="#MyCity" >
-<map name="MyCity">
-<area shape="rectangle" coords="881,200,1060,279" href="/static/html/fort.html"  title="Krishnagiri fort">
-<area shape="rectangle" coords="1104,498,1303,559" href="/static/html/residency.html" title="SV residency">
-<area shape="rectangle" coords="1095,583,1253,705" href="/static/html/hotel.html" title=" Pet hotel">
-<area shape="rectangle" coords="912,535,1106,604" href="/static/html/hospital.html" title=" Nanda hospital">
-<area shape="rectangle" coords="649,303,837,423" href="/static/html/society.html" title="Sports society">
-</map>
-</center>
+    <img src="/static/mapss.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="_blank" alt="BUS STAND" title="BUS STAND" href="bus.html" coords="517,371,699,425" 
+shape="rect">
+        <area target="_blank" alt="MAPS" title="MAPS" href="market.html" coords="141,497,337,419" shape="rect">
+        <area target="_blank" alt="MY HOME " title="MY HOME" href="home.html" coords="827,309,607,173" shape="rect">
+        <area target="_blank" alt="THEATRE" title="THEATRE" href="theatre.html" coords="47,93,245,-1" shape="rect">
+        <area target="_blank" alt="TEMPLE" title="TEMPLE" href="temple.html" coords="433,299,204,177" shape="rect">
+    </map>
 </body>
 </html>
 
-fort.html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-    </head>
-    <body bgcolor="cyan">
-    <h1 align="center">
-    <font color="black"><b>Krishnagiri</b></font>
-    </h1>
-    <h3 align="center">
-    <font color="purple"><b>krishnagiri fort</b></font>
-    </h3>
-    <hr size="3" color="white">
-    <p align="justify">
-    <font face="Georgia" size="5">
-    1)After the death of Shahji, his younger son Vyankoji (Ekoji) became the ruler.<br>
-    2)Krishnagiri Fort is one of the strongest forts in the Krishnagiri district.<br>
-    3)It is now one of the monuments protected by the Archaeological Survey of India.</font>
-    </p>
-    </body>
-</html>
-
-residency.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title> SV Residency</title>
-</head>
-<body bgcolor="pink">
+## Bus
 <h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
+    <font color="blueS" face="cursive">
+        BUS STAND
+    </font>
 </h1>
-<h3 align="center">
-<font color="purple"><b>SV Residency</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
-1)Sri Venkateswara Residency is a reasonable choice for travellers looking for a budget accomodation in Krishnagiri<br>
-2) It is located in Krishnagiri.<br>
-3) Book your Krishnagiri stay at Sri Venkateswara Residency with best prices only on MakeMyTrip.com.</font>
-</p>
-</body>
-</html>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>This is a very popular bus satnd in chennai.<br></LI>     
+            <LI>its one of chennai's biggest bus stand.<br></LI>
+            
+        </OL>
 
-hotel.html
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Pet hotel</title>
-</head>
-<body bgcolor="green">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Pet hotel</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Arial" size="5">
-   1)A pet boarding facility welcomes your pet in safety and comfort while you're away<br>
-   2)There are various types of accommodations available, depending on your pet's personality.<br>
-   3)Individual or group areas, small enclosures or even luxury suites, the goal is to make your furry friend feel at home.</font>
-</p>
-</body>
-</html>
-
-hospital.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Nanda Hospital</title>
-</head>
-<body bgcolor="gray">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Nanda Hospital</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Tahoma" size="5">
-1)Here ICU has centralized oxygen supply, ventilators and high-technology life saving equipment.<br>
-2)Our Operation Theatre Complex is equipped with the state-of-art Phillips C-arm Fluroscope. <br>
-3)This enables us to perform spinal, brain and complex ortho surgeries. The 3-Chip Laproscope enables us to do micro-invasive, pin-hole surgeries.</font>
- </p>
-</body>
-</html>
-
-society.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Sport society</title>
-</head>
-<body bgcolor="green">
-<h1 align="center">
-<font color="black"><b>Krishnagiri</b></font>
-</h1>
-<h3 align="center">
-<font color="purple"><b>Sport society</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Courier New" size="5">
-    1)Krishnagiri Sport's Development Society in Krishnagiri is one of the leading businesses in the Sports Clubs.<br>
-    2) Krishnagiri HO has a wide range of products and / or services to cater to the varied requirements of their customers.<br>
-    3)215 were here. Stadium, Arena & Sports Venue.</font>
-</p>
-</body>
-</html>
-
+    </font>
+    <font color ="blue" face = "cursive" size="20" > 
+    "MOST POPULAR BUS STAND"
+    </font>
 ```
+## Home
+```
+<h1 align="center">
+    <font color="purple" face="cursive">
+        MY HOME
+    </font>
+</h1>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>This is where i live.<br></LI>     
+            <LI>my home is always the best place .<br></LI>
+            <LI>and the view from my house is just spectacular.<br></LI>
+            
+        </OL>
 
 
+    </font>
+    <font color ="purple" face = "cursive" size="20" > 
+    "HOME WILL ALWAYS BE HOME"
+    </font>
+```
+## Market
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        MARKET
+    </title>
+</head>
+<body bgcolor="red">
+<h1 align="center">
+    <font color="green"face="Road" size="30">
+        
+    </font>
+</h1>
+<p align="center">
+    <font color="yellow" face="stretch" size="24">
+            <LI>this is the area where we get all the needed vegetable,fruits,flowers,etc.
+    </font>
+</p>
+</body>
+</html>
+```
+## temple
+```
+<h1 align="center">
+    <font color="blueS" face="cursive">
+        TEMPLE
+    </font>
+</h1>
+<p align="center">
+    <font color="red" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>this is a very auspicious place,where everyone workships god.<br></LI>     
+            <LI>Its one of the most famous temples in chennai.<br></LI>
+            
+        </OL>
+
+
+    </font>
+    <font color ="blue" face = "cursive" size="20" > 
+    "Temple Is A Place Of Peace"
+    
+    
+    </font>
+```
+## theatre
+```
+!DOCTYPE html>
+<html>
+<head>
+    <title>
+        THEATRE
+    </title>
+</head>
+<body bgcolor="premium">
+<h1 align="center">
+    <font color="silver" face="body">
+        THEATRE
+    </font>
+</h1>
+<p align="center">
+    <font color="black" face="Comic Sans MS" size="24">
+        <OL  TYPE="1" START="1">
+            <LI>A place where everyone enjoys wacthing a movie.<br></LI> 
+        </OL>
+    </font>
+    <font color ="red" face = "cursive" size="16" > 
+    "A theatre always entertains."
+    </font>
+</p>
+</body>
+</html>
+```
 ## OUTPUT
-![output](./screenshots/put1.png)
-
-![output](./screenshots/put2.png)
-
-![output](./screenshots/put3.png)
-
-![output](./screenshots/put4.png)
-
-![output](./screenshots/put5.png)
-
-![output](./screenshots/put6.png)
-
-
-
-## HTML VALIDATOR
-![HTML VALIDATOR](./screenshots/put7.png)
+![Alt text](<Screenshot (4).png>) 
+![Alt text](<Screenshot (6).png>) 
+![Alt text](<Screenshot (7).png>) 
+![Alt text](<Screenshot (8).png>) 
+![Alt text](<Screenshot (9).png>)
 
 ## RESULT
-The program for implementing image maps using HTML is executed successfully.
+The program for implementing image maps using HTML is executed successfully .
