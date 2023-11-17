@@ -1,4 +1,6 @@
 # Ex04 Places Around Me
+## Date: 
+
 ## AIM
 To develop a website to display details about the places around my house.
 
@@ -23,157 +25,191 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
+## index.html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Map</title>
+  </head>
+  <body>
+      <img src="Map.png" usemap="#image-map">
+  
+      <map name="image-map">
+          <area target="_blank" alt="Chennai Central" title="Chennai Central" href="central.html" coords="962,331,1127,450" 
+  shape="rect">
+          <area target="_blank" alt="Chennai Port" title="Chennai Port" href="port.html" coords="1762,307,1876,413" shape="rect">
+          <area target="_blank" alt="Chennai Egmore " title="Chennai Egmore " href="egmore.html" coords="87,666,263,723" shape="rect">
+          <area target="_blank" alt="Rajiv Gandhi Govt Hospital" title="Rajiv Gandhi Govt Hospital" href="hospital.html" coords="1031,487,1192,567" shape="rect">
+          <area target="_blank" alt="Fort St. George Museum" title="Fort St. George Museum" href="fort.html" coords="1444,495,1647,597" shape="rect">
+      </map>
+  </body>
+  </html>
 
-## index
-```
+## central.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"MAP"</title>
-    <h1 align="center">
-        <font color="blueS" face="cursive">
-           Tharun kumar 212222100056- MAP 
-        </font>
-    </h1>
+    <title>Chennai Central</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:darkslategray;
+        }
+        p{
+            text-align: justify;
+            color:darkolivegreen;
+            font-size: x-large;
+            
+        }
+    </style>
 </head>
 <body>
-    <img src="/static/mapss.png" usemap="#image-map">
+    <h1>Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station</h1>
+    <br>
+    <hr color="Brown">
+    <p>Chennai Central, officially Puratchi Thalaivar Dr. M.G. Ramachandran Central Railway Station, and formerly known as Madras Central (station code: MAS), is the main railway terminus in the city of Chennai, Tamil Nadu, India. It is the busiest railway station in South India and one of the most important hubs in the country. It is connected to Moore Market Complex railway station, Chennai Central metro station, Chennai Park railway station, and Chennai Park Town railway station. It is about 1.8 km (1.1 mi) from the Chennai Egmore railway station. The terminus connects the city to northern India, including Kolkata, Mumbai, and New Delhi, and all the different parts of India.</p>
 
-    <map name="image-map">
-        <area target="_blank" alt="BUS STAND" title="BUS STAND" href="bus.html" coords="517,371,699,425" 
-shape="rect">
-        <area target="_blank" alt="MAPS" title="MAPS" href="market.html" coords="141,497,337,419" shape="rect">
-        <area target="_blank" alt="MY HOME " title="MY HOME" href="home.html" coords="827,309,607,173" shape="rect">
-        <area target="_blank" alt="THEATRE" title="THEATRE" href="theatre.html" coords="47,93,245,-1" shape="rect">
-        <area target="_blank" alt="TEMPLE" title="TEMPLE" href="temple.html" coords="433,299,204,177" shape="rect">
-    </map>
 </body>
 </html>
 
-## Bus
-<h1 align="center">
-    <font color="blueS" face="cursive">
-        BUS STAND
-    </font>
-</h1>
-<p align="center">
-    <font color="black" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>This is a very popular bus satnd in chennai.<br></LI>     
-            <LI>its one of chennai's biggest bus stand.<br></LI>
-            
-        </OL>
-
-
-    </font>
-    <font color ="blue" face = "cursive" size="20" > 
-    "MOST POPULAR BUS STAND"
-    </font>
-```
-## Home
-```
-<h1 align="center">
-    <font color="purple" face="cursive">
-        MY HOME
-    </font>
-</h1>
-<p align="center">
-    <font color="black" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>This is where i live.<br></LI>     
-            <LI>my home is always the best place .<br></LI>
-            <LI>and the view from my house is just spectacular.<br></LI>
-            
-        </OL>
-
-
-    </font>
-    <font color ="purple" face = "cursive" size="20" > 
-    "HOME WILL ALWAYS BE HOME"
-    </font>
-```
-## Market
-```
+## port.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>
-        MARKET
-    </title>
-</head>
-<body bgcolor="red">
-<h1 align="center">
-    <font color="green"face="Road" size="30">
-        
-    </font>
-</h1>
-<p align="center">
-    <font color="yellow" face="stretch" size="24">
-            <LI>this is the area where we get all the needed vegetable,fruits,flowers,etc.
-    </font>
-</p>
-</body>
-</html>
-```
-## temple
-```
-<h1 align="center">
-    <font color="blueS" face="cursive">
-        TEMPLE
-    </font>
-</h1>
-<p align="center">
-    <font color="red" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>this is a very auspicious place,where everyone workships god.<br></LI>     
-            <LI>Its one of the most famous temples in chennai.<br></LI>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Port</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:darkslategray;
+        }
+        p{
+            text-align: justify;
+            color:darkolivegreen;
+            font-size: x-large;
             
-        </OL>
-
-
-    </font>
-    <font color ="blue" face = "cursive" size="20" > 
-    "Temple Is A Place Of Peace"
-    
-    
-    </font>
-```
-## theatre
-```
-!DOCTYPE html>
-<html>
-<head>
-    <title>
-        THEATRE
-    </title>
+        }
+    </style>
 </head>
-<body bgcolor="premium">
-<h1 align="center">
-    <font color="silver" face="body">
-        THEATRE
-    </font>
-</h1>
-<p align="center">
-    <font color="black" face="Comic Sans MS" size="24">
-        <OL  TYPE="1" START="1">
-            <LI>A place where everyone enjoys wacthing a movie.<br></LI> 
-        </OL>
-    </font>
-    <font color ="red" face = "cursive" size="16" > 
-    "A theatre always entertains."
-    </font>
-</p>
+<body>
+    <h1>Port of Chennai</h1>
+    <br>
+    <hr color="Brown">
+    <p>Chennai Port, formerly known as Madras Port, is the second largest container port of India, behind Mumbai's Nhava Sheva. The port is the largest one in the Bay of Bengal. It is the third-oldest port among the 13 major ports of India with official port operations beginning in 1881, although maritime trade started much earlier in 1639 on the undeveloped shore. It is an artificial and all-weather port with wet docks. Once a major travel port, it became a major container port in the post-Independence era. An established port of trade of British India since the 1600s, the port remains a primary reason for the economic growth of Tamil Nadu, especially for the manufacturing boom in South India, and has contributed greatly to the development of the city of Chennai. It is due to the existence of the port that the city of Chennai eventually became known as the Gateway of South India.</p>
+
 </body>
 </html>
-```
+
+## egmore.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chennai Egmore</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:darkslategray;
+        }
+        p{
+            text-align: justify;
+            color:darkolivegreen;
+            font-size: x-large;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Chennai Egmore Railway Station</h1>
+    <br>
+    <hr color="Brown">
+    <p>Chennai Egmore, formerly known as Madras Egmore, also known as Chennai Elumbur (station code: MS), is a railway station in Chennai, Tamil Nadu, India. Situated in the neighborhood of Egmore, it is one of the four intercity railway terminals in the city; the other three are Chennai Central railway station, Tambaram railway station and Chennai Beach railway station. The station was built in 1906-1908 as the terminus of the South Indian Railway Company. The building built in Gothic style is one of the prominent landmarks of Chennai. The main entrance to the station is situated on Gandhi-Irwin Road and the rear entrance on Poonamallee High Road.</p>
+
+</body>
+</html>
+
+## hospital.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:darkslategray;
+        }
+        p{
+            text-align: justify;
+            color:darkolivegreen;
+            font-size: x-large;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Rajiv Gandhi Government General Hospital</h1>
+    <br>
+    <hr color="Brown">
+    <p>Rajiv Gandhi Government General Hospital is a major state-owned hospital situated in Chennai, India. The hospital is funded and managed by the state government of Tamil Nadu. Founded in 1664 by the British East India Company, it is the first modern hospital in India. In the 19th century, the Madras Medical College joined it. As of 2018, the hospital receives an average of 12,000 outpatients every day.</p>
+
+</body>
+</html>
+
+## fort.hml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fort St. George</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:darkslategray;
+        }
+        p{
+            text-align: justify;
+            color:darkolivegreen;
+            font-size: x-large;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Fort St. George, India</h1>
+    <br>
+    <hr color="Brown">
+    <p>Fort St. George (or historically, White Town) is a fortress at the coastal city of Chennai, India. Founded in 1639, it was the first English (later British) fortress in India. The construction of the fort provided the impetus for further settlements and trading activity, in what was originally an uninhabited land. Thus, it is a feasible contention to say that the city (formerly named Madras) evolved around the fortress. The fort currently houses the Tamil Nadu legislative assembly and other official buildings.</p>
+
+</body>
+</html>
+
+
 ## OUTPUT
-![Alt text](<Screenshot (4).png>) 
-![Alt text](<Screenshot (6).png>) 
-![Alt text](<Screenshot (7).png>) 
-![Alt text](<Screenshot (8).png>) 
-![Alt text](<Screenshot (9).png>)
+
+
+<img width="836" alt="Screenshot 2023-11-15 at 10 33 04 PM" src="https://github.com/Shrishxok/FWAD4/assets/120294863/ae876127-1c13-4a5f-8e79-71bd4528ac57">
+<img width="834" alt="Screenshot 2023-11-15 at 10 32 52 PM" src="https://github.com/Shrishxok/FWAD4/assets/120294863/7dff0e7b-5e64-40c6-91ba-e12bb70b391a">
+<img width="827" alt="Screenshot 2023-11-15 at 10 32 33 PM" src="https://github.com/Shrishxok/FWAD4/assets/120294863/92f654c2-5232-4246-8c28-a821db4ab873">
+<img width="832" alt="Screenshot 2023-11-15 at 10 32 44 PM" src="https://github.com/Shrishxok/FWAD4/assets/120294863/f45c7f25-1267-435f-a143-3ef155322608">
+<img width="831" alt="Screenshot 2023-11-15 at 10 32 15 PM" src="https://github.com/Shrishxok/FWAD4/assets/120294863/76bf977d-a787-41c9-b22b-0a4a624ef95b">
+
+
+
+
 
 ## RESULT
-The program for implementing image maps using HTML is executed successfully .
+The program for implementing image maps using HTML is executed successfully.
